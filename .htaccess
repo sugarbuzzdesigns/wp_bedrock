@@ -1,0 +1,6 @@
+
+# BEGIN WordPress
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^localhost/bedrock/
+RewriteRule ^(/)?$ web/wp [L]
+# END WordPress
